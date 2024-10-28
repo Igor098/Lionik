@@ -1,6 +1,7 @@
 .hero {
     padding-top: 120px;
     padding-bottom: 130px;
+    margin-bottom: 80px;
     background-image: url(../img/hero/background-image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,16 +13,13 @@
 
 .hero__title {
     font-size: 40px;
-    line-height: 130%;
     font-weight: 300;
     margin-bottom: 24px;
 }
 
-.hero__desc {
+.hero__desc{
     max-width: 470px;
     font-size: 16px;
-    line-height: 155%;
-    font-weight: 400;
     margin-bottom: 36px;
 }
 
@@ -42,7 +40,6 @@
 .hero__secure-text {
     position: relative;
     font-size: 11px;
-    font-weight: 400;
     line-height: 155%;
     text-transform: uppercase;
 }

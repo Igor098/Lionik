@@ -57,34 +57,3 @@
     height: 2px;
     background-color: var(--color-black);
 }
-
-.button-trial {
-    padding: 15px 40px;
-    border-radius: 3px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: all 0.2s ease-in-out;
-}
-
-.button-trial:hover {
-    background-color: var(--color-light-blue);
-}
-
-.button-trial:active {
-    background-color: var(--color-dark-blue);
-}
-
-.button-trial:focus {
-    outline: 1px solid var(--color-light-blue);
-    outline-offset: 2px;
-}
-
-.button-trial:disabled {
-    background-color: var(--color-light-gray);
-}
-
-.button-trial_color_blue {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-}
