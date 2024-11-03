@@ -10,9 +10,14 @@
 }
 
 .contact-card {
+    width: 210px;
     grid-column: auto / span 4;
     display: grid;
  }
+
+.contact-card__wrapper {
+    display: grid;
+}
 
 .contact-card__img {
     margin-bottom: 20px;

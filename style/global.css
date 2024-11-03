@@ -55,6 +55,10 @@ body {
     cursor: pointer;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -88,6 +92,7 @@ body {
     padding: 15px 40px;
     border-radius: 3px;
     font-size: 15px;
+    line-height: normal;
     font-weight: 600;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
