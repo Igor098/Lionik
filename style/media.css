@@ -351,6 +351,7 @@
     .hamb {
         width: 40px;
         height: 40px;
+        top: 34px;
     }
 
     .hamb__field {
