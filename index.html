@@ -326,7 +326,10 @@
     <div class="footer-wrapper container flex-center-between">
         <div class="footer-logo-wrapper">
             <a class="footer-logo__link" href="#">
-                <img class="footer-logo__img" src="./img/footer/logo.svg" alt="">
+                <picture>
+                    <source srcset="./img/footer/logo_small.svg" media="(max-width: 480px)">
+                    <img class="footer-logo__img" srcset="./img/footer/logo.svg" alt="логотип">
+                </picture>
             </a>
             <span class="footer__copyright text">Copyright ©2017. All Right Reserved</span>
         </div>
