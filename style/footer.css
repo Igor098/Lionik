@@ -14,6 +14,10 @@
     line-height: normal;
 }
 
+.footer__copyright_media {
+    display: none;
+}
+
 .footer-menu-wrapper {
     display: flex;
     align-items: center;
